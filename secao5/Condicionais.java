@@ -67,9 +67,68 @@ public class Condicionais {
         // Java == JAVA (false) > java == java
         System.out.println(str1.equalsIgnoreCase(str3));
         
+       // 5 - if
+  // baseado em uma comparação, eu executo algo
+       int numero = 10;
 
+       if (numero > 5) {
+
+        System.out.println("o numero é maior que 5");
+
+       }
+
+       int numero2 = 6;
+
+       if  (numero2 > 10) { 
+        System.out.println("o numero é maior que 10");
+        
+       }
+     // if com strings
+       String texto = "teste";
+     // se a função retorna um booleano, eu posso usar no if
+     if (texto.equals("teste")){
+        System.out.println("O texto é: teste");
+     }
+       // declaração do if (comparação ou retorno de booleano) {o que será executado ...} sintaxe do if
+
+       // 6 - else
+
+       int numero3 = 6;
+
+       if  (numero3 > 10) { 
+        System.out.println("o numero é maior que 10");
+       
+    }else {
+        System.out.println("insira outro numero: ");
+    }
+    // todo else precisa de um if, mas nem todo if precisa de um else
+
+    int valor3 = 50;
+    if (valor3 > 20) {
+        System.out.println("o valor é maior do que 20 ");
+        
+    }
+    int valor4 = 50;
+    if (valor4 > 200) {
+        System.out.println("o valor é maior do que 200 ");
+        
+    }else{
+         System.out.println("insira um valor válido: ");
+    }
+   
+
+    double nota = 5.9;
+    if (nota == 10){
+        System.out.println("Parabens, você foi aprovado!!!");
+    }else if (nota > 6.5){
+        System.out.println("Nota acima da média");
+    }else if (nota < 6) {
+        System.out.println("Nota abaixo da media");
+    }
         
         
+      
+
         
 
         
