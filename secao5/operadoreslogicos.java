@@ -28,6 +28,24 @@ public class operadoreslogicos {
     System.out.println("acesso negado");
    }
 
+   // 3 - Precedencia
+   boolean a = true;
+   boolean b = false;
+   boolean c = true;
+   // TRUE AND FALSE -> FALSE OR TRUE -> TRUE
+   boolean resultado = a && b || c;
+
+   System.out.println(resultado);
+
+   // TRUE OU FALSE -> TRUE AND TRUE -> TRUE
+   boolean resultado1 = a || b && c;
+   System.out.println(resultado1);
+
+   boolean resultado2 = ! (a || b) && c;
+   // NOT (TRUE OU FALSE) => NOT(TRUE) => FALSE AND TRUE => FALSE
+   System.out.println(resultado2);
+   
+
    
     }
     
